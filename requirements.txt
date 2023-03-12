@@ -1,0 +1,7 @@
+fastapi==0.94.0
+loguru==0.6.0
+matplotlib==3.5.3
+Pillow==9.4.0
+pydantic==1.9.1
+PyMuPDF==1.21.0
+uvicorn==0.18.2

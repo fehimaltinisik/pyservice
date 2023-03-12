@@ -1,0 +1,646 @@
+{
+  "id": "5477006534512466537",
+  "form_id": "223573167476969",
+  "ip": "176.88.135.154",
+  "created_at": "2022-12-24 09:17:34",
+  "status": "ACTIVE",
+  "new": "0",
+  "flag": "0",
+  "notes": "",
+  "updated_at": "2022-12-24 09:23:47",
+  "answers": {
+    "21": {
+      "name": "lutfenFormu",
+      "order": "89",
+      "text": "L\u00fctfen Formu G\u00f6nderiniz.",
+      "type": "control_head"
+    },
+    "29": {
+      "name": "clickTo29",
+      "order": "1",
+      "text": "<p><strong><em>Bu test\u00a083 sorudan olu\u015fmaktad\u0131r.</em></strong></p>\n<p><strong><em>Doldurulmas\u0131 yakla\u015f\u0131k 15 dakika s\u00fcrmektedir.</em></strong></p>\n<p><strong><em>Cevaplar\u0131n do\u011frusu ve yanl\u0131\u015f\u0131 yoktur. Sorular\u0131n kesin anlam\u0131 \u00fczerinde\u00a0 fazla\u00a0</em></strong><strong><em>d\u00fc\u015f\u00fcnmeden h\u0131zl\u0131 bir \u015fekilde tamam\u0131n\u0131 <span style=\"background-color: #fffe54;\">tek seferde</span> cevaplay\u0131n\u0131z.</em></strong></p>",
+      "type": "control_text"
+    },
+    "146": {
+      "name": "gonder",
+      "order": "90",
+      "text": "G\u00f6nder",
+      "type": "control_button"
+    },
+    "147": {
+      "name": "isim",
+      "order": "2",
+      "sublabels": "{\"prefix\":\"\\u00d6n Ad\",\"first\":\"Ad\",\"middle\":\"\\u0130kinci Ad\",\"last\":\"Soyad\",\"suffix\":\"Son Ad\"}",
+      "text": "\u0130sim",
+      "type": "control_fullname",
+      "answer": {
+        "first": "Fehim",
+        "last": "Alt\u0131n\u0131\u015f\u0131k"
+      },
+      "prettyFormat": "Fehim Alt\u0131n\u0131\u015f\u0131k"
+    },
+    "149": {
+      "maxValue": "",
+      "name": "yas",
+      "order": "5",
+      "text": "Ya\u015f",
+      "type": "control_number",
+      "answer": "24"
+    },
+    "151": {
+      "name": "cinsiyet",
+      "order": "4",
+      "text": "Cinsiyet",
+      "type": "control_radio",
+      "answer": "Erkek"
+    },
+    "167": {
+      "name": "degerodaklilik1",
+      "order": "6",
+      "text": "1. \u00c7ocuklu\u011fumda bana s\u00f6yleneni hi\u00e7 itiraz etmeden yapard\u0131m.",
+      "type": "control_radio",
+      "answer": "Hi\u00e7 Uymuyor"
+    },
+    "250": {
+      "name": "eposta",
+      "order": "3",
+      "text": "E-posta",
+      "type": "control_email",
+      "answer": "fehim.altinisik@gmail.com"
+    },
+    "285": {
+      "name": "canlilik1",
+      "order": "7",
+      "text": "2. Canl\u0131 ve hareketli ortamlar\u0131 severim.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "286": {
+      "name": "canlilik3",
+      "order": "9",
+      "text": "4. Her zaman insanlara s\u00f6yleyecek/anlatacak \u00e7ok \u015feyim var.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "287": {
+      "name": "canlilik4",
+      "order": "10",
+      "text": "5. Beklemeye tahamm\u00fcl\u00fcm yoktur.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "288": {
+      "name": "canlilik5",
+      "order": "11",
+      "text": "6. \u0130lgi oda\u011f\u0131 olmak ho\u015fuma gider.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "289": {
+      "name": "sosyallik1",
+      "order": "12",
+      "text": "7. Faydama olan \u015feyleri elde etmek i\u00e7in hemen harekete ge\u00e7erim.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "290": {
+      "name": "sosyallik2",
+      "order": "13",
+      "text": "8. Aktivitelerde \u00e7ekinmeden \u00f6nemli sorumluluklar \u00fcstlenirim.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "291": {
+      "name": "sosyallik3",
+      "order": "14",
+      "text": "9. Y\u00fcksek mevkide bulunan insanlar ile rahatl\u0131kla ileti\u015fime ge\u00e7erim.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "292": {
+      "name": "sosyallik4",
+      "order": "15",
+      "text": "10. Yabanc\u0131lar ile hemen kayna\u015f\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "293": {
+      "name": "sosyallik5",
+      "order": "16",
+      "text": "11. Hakk\u0131m\u0131 kimseye yedirmem.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "294": {
+      "name": "degerodaklilik2",
+      "order": "17",
+      "text": "12. Yakalanmayaca\u011f\u0131m\u0131 bildi\u011fim anlarda bile kurallara y\u00fczde y\u00fcz uydum.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "295": {
+      "name": "baskinlik1",
+      "order": "18",
+      "text": "13. \u0130\u00e7inde bulundu\u011fum grubun kontrol\u00fcn\u00fc kolayl\u0131kla al\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "296": {
+      "name": "baskinlik2",
+      "order": "19",
+      "text": "14. Karma\u015f\u0131k durumlarda bile kararlar\u0131m tart\u0131\u015fmas\u0131z \u00e7ok nettir.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "297": {
+      "name": "baskinlik3",
+      "order": "20",
+      "text": "15. Ba\u015fkalar\u0131n\u0131 her zaman mant\u0131kl\u0131 a\u00e7\u0131klamlar ile ikna ederim.",
+      "type": "control_radio",
+      "answer": "Tam Uyuyor"
+    },
+    "298": {
+      "name": "baskinlik4",
+      "order": "21",
+      "text": "16. Fikrimin kab\u00fcl\u00fc i\u00e7in sonuna kadar m\u00fccadele ederim.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "299": {
+      "name": "baskinlik5",
+      "order": "22",
+      "text": "17. Bulundu\u011fum ortamda benim s\u00f6z\u00fcm ge\u00e7er.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "300": {
+      "name": "baskalarinaguven1",
+      "order": "23",
+      "text": "18. \u0130\u015fimi her zaman en iyi \u015fekilde yapar\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "301": {
+      "name": "baskalarinaguven2",
+      "order": "24",
+      "text": "19. \u0130nsanlara g\u00fcvenirim.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "302": {
+      "name": "baskalarinaguven3",
+      "order": "25",
+      "text": "20. \u0130nsanlar\u0131n i\u015flerini en iyi \u015fekilde yapmaya \u00e7al\u0131\u015ft\u0131klar\u0131na inan\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "303": {
+      "name": "baskalarinaguven4",
+      "order": "26",
+      "text": "21. Yapt\u0131\u011f\u0131 hata sebebiyle benden \u00f6z\u00fcr dileyen ki\u015fileri afederim.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "304": {
+      "name": "baskalarinaguven5",
+      "order": "27",
+      "text": "22. \u0130nsanlar\u0131n ba\u015fkalar\u0131n\u0131n\u0131n \u00e7\u0131karlar\u0131n\u0131 da g\u00f6zettiklerine inan\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "305": {
+      "name": "degerodaklilik3",
+      "order": "28",
+      "text": "23. Amac\u0131 ne olursa olsun \u00f6mr\u00fcmde hi\u00e7 yalan s\u00f6ylemedim.",
+      "type": "control_radio",
+      "answer": "Hi\u00e7 Uymuyor"
+    },
+    "306": {
+      "name": "yardimseverlik1",
+      "order": "29",
+      "text": "24. Ba\u015fkalar\u0131na yard\u0131mc\u0131 olmak ho\u015fuma gider.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "307": {
+      "name": "yardimseverlik2",
+      "order": "30",
+      "text": "25. Ba\u015fka insanlar i\u00e7in de endi\u015felenirim.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "308": {
+      "name": "yardimseverlik3",
+      "order": "31",
+      "text": "26. Arkada\u015flar\u0131m merhametli ve yumu\u015fak kalpli oldu\u011fumu s\u00f6yler.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "309": {
+      "name": "yardimseverlik4",
+      "order": "32",
+      "text": "27. Ba\u015fkalar\u0131 i\u00e7in vakit ay\u0131r\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "310": {
+      "name": "yardimseverlik5",
+      "order": "33",
+      "text": "28. \u0130nsanlar\u0131 yard\u0131m kampanyalar\u0131na kat\u0131lmalar\u0131 konusunda te\u015fvik ederim.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "311": {
+      "name": "uyumluluk1",
+      "order": "34",
+      "text": "29. Ba\u015fkalar\u0131 ile birlikte i\u015f yapmaktan zevk al\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "312": {
+      "name": "uyumluluk2",
+      "order": "35",
+      "text": "30. Grup kararlar\u0131na uyar\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "313": {
+      "name": "uyumluluk3",
+      "order": "36",
+      "text": "31. Farkl\u0131 firkir ve d\u00fc\u015f\u00fcnceleri anlay\u0131\u015fla kar\u015f\u0131lar\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "314": {
+      "name": "uyumluluk4",
+      "order": "37",
+      "text": "32. \u00c7ok fazla \u00f6ne \u00e7\u0131kmay\u0131 sevmem.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "315": {
+      "name": "uyumluluk5",
+      "order": "38",
+      "text": "33. \u0130nsanlar\u0131 k\u0131rmamaya dikkat ederim.",
+      "type": "control_radio",
+      "answer": "Tam Uyuyor"
+    },
+    "316": {
+      "name": "degerodaklilik4",
+      "order": "39",
+      "text": "34. Konu ne olursa olsun hi\u00e7bir zaman ba\u015fkas\u0131n\u0131n arkas\u0131ndan konu\u015fmad\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "317": {
+      "name": "canlilik2",
+      "order": "8",
+      "text": "3. \u0130\u015fe her zaman hareket ve e\u011flence katar\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "318": {
+      "name": "duzenlilik1",
+      "order": "40",
+      "text": "35. Tertip ve d\u00fczeni \u00e7ok severim.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "319": {
+      "name": "duzenlilik2",
+      "order": "41",
+      "text": "36. Kulland\u0131\u011f\u0131m e\u015fyalar herzaman yerli yerindedir.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "320": {
+      "name": "duzenlilik3",
+      "order": "42",
+      "text": "37. Hayat\u0131m\u0131 her zaman bir programa tabi olarak s\u00fcrd\u00fcr\u00fcr\u00fcm.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "321": {
+      "name": "duzenlilik4",
+      "order": "43",
+      "text": "38. Ald\u0131\u011f\u0131m \u015feyleri yerine koymay\u0131  hi\u00e7 bir zaman unutmam.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "322": {
+      "name": "duzenlilik5",
+      "order": "44",
+      "text": "39. E\u015fyalar\u0131m\u0131  hi\u00e7 bir zaman etrafta b\u0131rakmam.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "323": {
+      "name": "ozdisiplin1",
+      "order": "45",
+      "text": "40. \u00c7al\u0131\u015fmaya/i\u015f yapmaya her zaman haz\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "324": {
+      "name": "ozdisiplin2",
+      "order": "46",
+      "text": "41. \u0130\u015flerimi vaktinde bitiririm.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "325": {
+      "name": "ozdisiplin3",
+      "order": "47",
+      "text": "42. Uzun saatler ara vermeden i\u015fe devam edebilirim.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "326": {
+      "name": "ozdisiplin4",
+      "order": "48",
+      "text": "43. G\u00fcnl\u00fck rutinlerimi (bak\u0131m, kontrol) yapmadan eveden \u00e7\u0131kmam.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "327": {
+      "name": "ozdisiplin5",
+      "order": "49",
+      "text": "44. \u0130\u015flerimi hi\u00e7bir zaman ertelemem.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "328": {
+      "name": "degerodaklilik5",
+      "order": "50",
+      "text": "45. Hatalar\u0131m\u0131, \u00e7ocuklu\u011fum dahil hi\u00e7bir zaman saklamad\u0131m.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "329": {
+      "name": "kurallarabaglilik1",
+      "order": "51",
+      "text": "46. Kurallara her yerde harfiyen uyar\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "330": {
+      "name": "kurallarabaglilik2",
+      "order": "52",
+      "text": "47. \u0130\u015fyeri kurallar\u0131na uyulmas\u0131nda \u0131srarc\u0131y\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "331": {
+      "name": "kurallarabaglilik3",
+      "order": "53",
+      "text": "48. Basit kurallara dahi uyar\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "332": {
+      "name": "kurallarabaglilik4",
+      "order": "54",
+      "text": "49. Toplumun genel kurallar\u0131na uygun hareket ederim.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "333": {
+      "name": "kurallarabaglilik5",
+      "order": "55",
+      "text": "50. Arkada\u015flar\u0131m\u0131n uyar\u0131lar\u0131n\u0131 dikkate al\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "334": {
+      "name": "endise1",
+      "order": "56",
+      "text": "51. Ruh halim \u00e7ok de\u011fi\u015fkendir.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "335": {
+      "name": "endise2",
+      "order": "57",
+      "text": "52. \u00c7abucak strese kap\u0131l\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "336": {
+      "name": "endise3",
+      "order": "58",
+      "text": "53. Kolayca mutsuzla\u015f\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "337": {
+      "name": "endise4",
+      "order": "59",
+      "text": "54. Genellikle h\u00fcz\u00fcnl\u00fcy\u00fcm.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "338": {
+      "name": "endise5",
+      "order": "60",
+      "text": "55. \u00c7o\u011funlukla endi\u015fe duyar\u0131m.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "339": {
+      "name": "degerodaklilik6",
+      "order": "61",
+      "text": "56. Oyun oynarken bile hi\u00e7bir zaman hile yapmad\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "340": {
+      "name": "guvensizlik1",
+      "order": "62",
+      "text": "57. \u0130nsanlara ''hay\u0131r'' demekte zorlan\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "341": {
+      "name": "guvensizlik2",
+      "order": "63",
+      "text": "58. Topluluk kar\u015f\u0131s\u0131nda konu\u015furken \u00e7ok heyecanlan\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "342": {
+      "name": "guvensizlik3",
+      "order": "64",
+      "text": "59. Verdi\u011fim kararlar\u0131n sorgulanmas\u0131ndan hi\u00e7 ho\u015flanmam.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "343": {
+      "name": "guvensizlik4",
+      "order": "65",
+      "text": "60. Zaman zaman ba\u015fkalar\u0131n\u0131n  deste\u011fine ihtiya\u00e7 duyar\u0131m.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "344": {
+      "name": "guvensizlik5",
+      "order": "66",
+      "text": "61. S\u0131kl\u0131kla ba\u015faramayaca\u011f\u0131m duygusuna kap\u0131l\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "345": {
+      "name": "kizginlik1",
+      "order": "67",
+      "text": "62. \u00c7o\u011fu zaman sinirliyim.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "346": {
+      "name": "kizginlik4",
+      "order": "70",
+      "text": "65. \u0130\u015fler yolunda gitmedi\u011finde sert tepki veririm.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "347": {
+      "name": "kizginlik5",
+      "order": "71",
+      "text": "66. \u0130\u015fini eksik yapan insanlara hi\u00e7 tahamm\u00fcl edemem.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "348": {
+      "name": "degerodaklilik7",
+      "order": "72",
+      "text": "67. Bug\u00fcn yap\u0131lmas\u0131 gereken bir i\u015fi hi\u00e7bir zaman ertesi g\u00fcne b\u0131rakmad\u0131m.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "349": {
+      "name": "analitikdusunme1",
+      "order": "73",
+      "text": "68. Neden ve nas\u0131l sorular\u0131 benim i\u00e7in \u00f6nemlidir.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "350": {
+      "name": "kizginlik2",
+      "order": "68",
+      "text": "63. Hatalar\u0131m\u0131n bana s\u00f6ylenmesinden ho\u015flanmam.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "351": {
+      "name": "kizginlik3",
+      "order": "69",
+      "text": "64. \u0130\u015flerin s\u00fcratle tamamlanmamas\u0131 beni tedirgin eder.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "352": {
+      "name": "analitikdusunme2",
+      "order": "74",
+      "text": "69. Kulland\u0131\u011f\u0131m makinelerin nas\u0131l \u00e7al\u0131\u015ft\u0131\u011f\u0131n\u0131 \u00e7\u00f6zmeye \u00e7al\u0131\u015f\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "353": {
+      "name": "analitikdusunme3",
+      "order": "75",
+      "text": "70. Konu\u015fmalar\u0131mda zor kelimeler kullan\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "354": {
+      "name": "analitikdusunme4",
+      "order": "76",
+      "text": "71. Bulmacalardan ve zeka oyunlar\u0131ndan ho\u015flan\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "355": {
+      "name": "analitikdusunme5",
+      "order": "77",
+      "text": "72. \u0130\u015flerimi planl\u0131 ve bir s\u0131rayla yapar\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "356": {
+      "name": "duyarlilik1",
+      "order": "78",
+      "text": "73. Duygular benim i\u00e7in \u00f6nemlidir.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "357": {
+      "name": "duyarlilik2",
+      "order": "79",
+      "text": "74. Ba\u015fkalar\u0131n\u0131n faydas\u0131na olan sosyal i\u00e7erikli projelerde yer al\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "358": {
+      "name": "duyarlilik3",
+      "order": "80",
+      "text": "75. Benim i\u00e7in duygular mant\u0131ktan daha \u00f6nemlidir.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "359": {
+      "name": "duyarlilik4",
+      "order": "81",
+      "text": "76. Toplum faydas\u0131na fikir \u00fcreten toplant\u0131lara kat\u0131l\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "Hi\u00e7 Uymuyor"
+    },
+    "360": {
+      "name": "duyarlilik5",
+      "order": "82",
+      "text": "77. \u0130nsanlar\u0131n ne d\u00fc\u015f\u00fcnd\u00fc\u011f\u00fc benim i\u00e7in \u00f6nemlidir.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "361": {
+      "name": "degerodaklilik8",
+      "order": "83",
+      "text": "78. Hayat\u0131m\u0131n hi\u00e7bir d\u00f6neminde ba\u015fkalar\u0131 i\u00e7in yak\u0131\u015f\u0131ks\u0131z \u015feyler s\u00f6ylemedim.",
+      "type": "control_radio",
+      "answer": "Az Uyuyor"
+    },
+    "362": {
+      "name": "yeniligeaciklik1",
+      "order": "84",
+      "text": "79. Bir\u00e7ok konuda harika fikirlerim var.",
+      "type": "control_radio",
+      "answer": "Ne Uyuyor Ne Uymuyor"
+    },
+    "363": {
+      "name": "yeniligeaciklik2",
+      "order": "85",
+      "text": "80. Bir i\u015fi daha iyi yapman\u0131n ba\u015fka yollar\u0131 hep vard\u0131r.",
+      "type": "control_radio",
+      "answer": "Tam Uyuyor"
+    },
+    "364": {
+      "name": "yeniligeaciklik3",
+      "order": "86",
+      "text": "81. Daha iyi yapmak i\u00e7in hep yeni y\u00f6ntemler denerim.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "365": {
+      "name": "yeniligeaciklik4",
+      "order": "87",
+      "text": "82. \u0130\u015f arkada\u015flar\u0131ma i\u015flerini daha iyi yapmalar\u0131 i\u00e7in \u00f6neriler sunar\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    },
+    "366": {
+      "name": "yeniligeaciklik5",
+      "order": "88",
+      "text": "83. Ba\u015fklar\u0131n\u0131n fikirlerinden faydalan\u0131r\u0131m.",
+      "type": "control_radio",
+      "answer": "\u00c7ok Uyuyor"
+    }
+  }
+}
