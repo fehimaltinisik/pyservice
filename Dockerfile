@@ -9,5 +9,3 @@ RUN pip install --no-cache-dir --upgrade -r ./requirements.txt
 COPY ./ /app
 
 CMD ["python", "run.py"]
-
-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
