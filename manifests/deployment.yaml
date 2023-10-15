@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pyservice
+  labels:
+    app: pyservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pyservice
+  template:
+    metadata:
+      labels:
+        app: pyservice
+    spec:
+      containers:
+      - name: pyservice
+        image: ghcr.io/fehimaltinisik/pyservice:latest
+        ports:
+        - containerPort: 8000
+      imagePullSecrets:
+        - name: regcred

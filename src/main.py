@@ -1,19 +1,37 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 from starlette.responses import RedirectResponse
-
-from src.logging import configure_logger
-from src.routers import k8s_router
+from src.clients import HTTPClient
+from src.clients import SQLiteClient
+from src.config.logging import configure_logger
 from src.routers import user_router
-from src.server.exceptionfilter import register_exception_filter
+from src.routers import order_router
+from src.server.exceptionfilters import register_exception_handlers
 
 configure_logger()
 
-app = FastAPI(title="PyService", docs_url="/docs")
 
-register_exception_filter(app)
+@asynccontextmanager
+async def lifespan(_: FastAPI):
+    await HTTPClient.init()
+    SQLiteClient.init()
 
-app.include_router(k8s_router)
+    yield
+
+    await HTTPClient.close()
+    SQLiteClient.close()
+
+app = FastAPI(
+    title="PyService",
+    docs_url="/docs",
+    lifespan=lifespan)
+
+
+register_exception_handlers(app)
+
 app.include_router(user_router)
+app.include_router(order_router)
 
 
 @app.get("/")

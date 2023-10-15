@@ -2,6 +2,7 @@ from io import BytesIO
 
 import fitz  # noqa
 from PIL import Image
+from PIL import Image
 from matplotlib.figure import Figure
 
 from src.models import Name
@@ -52,3 +53,8 @@ def pdf_file_name_from_email(email: str, assessment_name: str) -> str:
 
 def pdf_file_name_from_name(name: Name, assessment_name: str) -> str:
     return "{0}-{1}-{2}.pdf".format(name.first, name.last, assessment_name.lower().replace(' ', '-'))
+
+
+def save_image(image_name, image_bytes):
+    image = Image.open(image_bytes)
+    image.save(f"{image_name}.png")

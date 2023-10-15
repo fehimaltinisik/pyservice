@@ -1,22 +1,20 @@
 from io import BytesIO
 from typing import List
 
-from src.examples import user as user_example
-from src.models import Name
-from src.models import User
+from src.httpclients import user_api_client
+from src.models.httpclient.mockuser import CreateUserAPIResponse
+from src.models.httpclient.mockuser import GetUserAPIResponse
+from src.models.router import CreateUserRequest
 
 
-def find_user_by_name(name: Name) -> User:
-    """"""
-    return User(name=name, email=user_example.EMAIL, birthdate=user_example.BIRTHDATE)
+async def create_user(create_user_request: CreateUserRequest) -> CreateUserAPIResponse:
+    create_user_api_response: CreateUserAPIResponse = await user_api_client.create_user(create_user_request)
+
+    return create_user_api_response
 
 
-def find_user_by_email_and_calculate_age(email: str) -> int:
-    """"""
-    name: Name = Name(first=user_example.FIRST_NAME, last=user_example.FIRST_NAME)
-    user: User = User(name=name, email=email, birthdate=user_example.BIRTHDATE)
-
-    return user.age()
+async def get_user_by_id(user_id: id) -> GetUserAPIResponse:
+    return await user_api_client.get_user(user_id)
 
 
 def find_users_profile_picture_by_email(email: str) -> List[BytesIO]:

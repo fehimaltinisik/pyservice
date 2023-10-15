@@ -4,3 +4,7 @@ class UserNotFound(Exception):
 
 class UserAlreadyExists(Exception):
     pass
+
+
+class OperationError(Exception):
+    pass
